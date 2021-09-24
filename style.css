@@ -3,6 +3,7 @@
 :root{
     --primary-color:#FF6366;
     --secondary-color:#63fffc;
+    --gray-color:#2F2E41;
 }
 
 hr{
@@ -91,5 +92,58 @@ body{
 .nav-link-active{
     font-weight: bold;
     text-decoration:none;
+    color: white;
+}
+
+
+/* Header */
+
+.hero{
+    padding: 2rem;
+}
+
+.hero-img{
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero-heading{
+    color: var(--gray-color)
+}
+
+.hero-span{
+    color: var(--primary-color);
+}
+
+/* section */
+.sections h1{
+    text-align: center;
+}
+
+.sections-offwhite{
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+}
+
+
+/* footer */
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: white;
+    border-top-right-radius: 1rem;
+
+}
+
+.footer-heading{
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer-text {
+    text-align: center;
+    text-decoration: none;
     color: white;
 }
