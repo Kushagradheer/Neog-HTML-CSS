@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+:root{
+    --primary-color:#FF6366;
+    --secondary-color:#63fffc;
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+/**Fonts**/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/**container**/
+.container{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.center-container{
+    margin: auto;
+    max-width: max-content;
+}
+
+/* Link */
+.link{
+    text-decoration: none;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border:solid var(--primary-color);;
+    color: white;
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: solid var(--primary-color);
+}
+
+
+/* Lists */
+
+.list-non-bullet{
+    list-style-type: none;
+}
+
+
+.list-inline{
+    list-style: none;
+    display: inline;
+    padding-right: 1rem;
+
+}
+
+
+/* Nav */
+
+.nav{
+    background-color: var(--primary-color);
+    padding:1rem;
+    margin: 1rem 1rem;
+    color: white;
+    border-bottom-left-radius: 1rem;
+}
+
+
+.nav-brand{
+    font-weight: bold;
+}
+
+.nav-pills{
+    text-align: right;
+}
+
+
+.nav-link{
+    color: white;
+    text-decoration:none;
+
+}
+
+.nav-link-active{
+    font-weight: bold;
+    text-decoration:none;
+    color: white;
+}
